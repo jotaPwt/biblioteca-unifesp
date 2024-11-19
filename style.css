@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-principal: #215A36;
+    --claro: rgb(164, 161, 161);
+    --branco: white;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: 'Fira Code', monospace;
+}
+
+.cabecalho {
+    background-color: var(--cor-principal);
+    width: 100%;
+}
+
+.conteiner__cabecalho {
+    padding: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner__imagem {
+    position: absolute;
+    top: 8px;
+    left: 9%;
+    width: 12%;
+    height: 12%;
+}
+
+.title {
+    color: var(--branco);
+    font-size: 28px;
+    
+}
+
+
+.link {
+    text-decoration: none;
+    color: var(--branco);
+    margin: 0 1em;
+}
+
+.section__principal {
+    padding: 4em;
+}
+
+
+.principal {
+    text-align: center;
+    padding: 3em;
+    box-shadow: 1px 1px 2px 2px var(--claro);
+    border-radius: 1em;
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.conteiner__principal {
+    display: grid;
+    margin: 2em 0;
+    text-align: center;
+}
+
+.titulo__principal {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.caixa {
+    border: solid 2px var(--claro);
+    border-top: none;
+    border-left: none;
+    border-radius: 0.3em;
+    box-shadow: var(--claro);
+    width: 70%;
+    margin: 0 auto;
+} 
+
+.paragrafo__cpf {
+    margin: 1em 0;
+}
+
+.paragrafo__email {
+    margin: 1em 0;
+}
+
+.botao__enviar {
+    background: var(--cor-principal);
+    padding: 0.5em;
+    border: 1em;
+    border-radius: 1em;
+    margin-top: 2em;
+    color: var(--branco);
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(81, 78, 78);
+    border-radius: 10px;
+    width: 5px;
+}
